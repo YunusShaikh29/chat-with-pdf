@@ -34,7 +34,6 @@ export default function RootLayout({
           <SignUpButton />
         </SignedOut>
         <SignedIn>
-        <UserButton />
           {children}
         </SignedIn>
       </body>
